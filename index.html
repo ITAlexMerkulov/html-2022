@@ -1,215 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- homework-01 -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>learn tables/practice</title>
+    <title>Homework-01</title>
 </head>
 
 <body>
     <header>
+        <nav>
+            <a href="#">WebStudio</a>
+
+            <ul>
+                <li> <a href="#">Студія</a></li>
+                <li> <a href="#">Портфоліо</a></li>
+                <li> <a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+        <address>
+            <ul>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </address>
     </header>
+
+
     <main>
-        <table>
-            <caption>Розклад потягів</caption>
-            <thead>
-                <tr>
-                    <td>Номер</td>
-                    <td>Маршрут</td>
-                    <td>Час в дорозі</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>433</td>
-                    <td>Київ - Ковель</td>
-                    <td>5 годин</td>
-                </tr>
-                <tr>
-                    <td>701</td>
-                    <td>Харків - Дніпро</td>
-                    <td>7 годин</td>
-                </tr>
-                <tr>
-                    <td>258</td>
-                    <td>Львів - Одеса</td>
-                    <td>4 години</td>
-                </tr>
-            </tbody>
-        </table>
+        <section class="">
+            <h1>Ефективні рішення для вашого бізнесу</h1>
+            <button type="button">Замовити послугу</button>
+        </section>
+        <section class="benefits">
+            <ul>
+                <li>
+                    <h3>Увага до деталей</h3>
+                    <p>Ідейні міркування, а також початок кожноденної роботи з формування позиції.</p>
+                </li>
+                <li>
+                    <h3>Пунктуальність</h3>
+                    <p>Задача організації, особливо рамки та місце навявння кадрів тягне за собою.</p>
+                </li>
+                <li>
+                    <h3>Планування</h3>
+                    <p>Рівним чином консультація з широким загалом в значній мірі обумовлює.</p>
+                </li>
+                <li>
+                    <h3>Сучасні технології</h3>
+                    <p>Значущисть цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </li>
 
-        <table>
-            <thead>
-                <tr>
-                    <td rowspan="2">Cloud service</td>
-                    <td colspan="3">Statistics</td>
+            </ul>
 
-                </tr>
-                <tr>
+        </section>
 
-                    <td>Users</td>
-                    <td>Visits</td>
-                    <td>Volume</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Google</td>
-                    <td>12000</td>
-                    <td>307000</td>
-                    <td>1000Tb</td>
-                </tr>
-                <tr>
-                    <td>Amazon</td>
-                    <td>9000</td>
-                    <td>200500</td>
-                    <td>800Tb</td>
-                </tr>
-            </tbody>
-        </table>
+        <section class="what-are-we-doing">
+            <h2>Чим ми займаємось</h2>
+            <ul>
+                <li><img src="./images/laptop.webp" alt="ноутбук"></li>
+                <li><img src="./images/palitra.webp" alt="палітра на планшеті"></li>
+                <li><img src="./images/keyboard-on-table.webp" alt="клавіатура на столі"></li>
+            </ul>
+        </section>
 
-        <!--//<dl>description list контейнер для списка пар термінів та їх опису-->
-        <dl>
+        <section class="staff">
+            <h2>Наша команда</h2>
+            <ul>
+                <li>
+                    <img src="./images/igor.webp" alt="igor" width="270">
+                    <h3>Ігор Дем'яненко</h3>
+                    <p>Product Designer</p>
 
-            <!--<dt> - для розмітки терміна-->
-            <dt>JPEG</dt>
+                </li>
+                <li>
+                    <img src="./images/olga.webp" alt="olga" width="270">
+                    <h3>Ольга Репіна</h3>
+                    <p>Frontend Developer</p>
+                </li>
+                <li>
+                    <img src="./images/nikolas.webp" alt="nikolas" width="270">
+                    <h3>Микола Тарасов</h3>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="./images/michael.webp" alt="michael" width="270">
+                    <h3>Михайло Єрмаков</h3>
+                    <p>UI Designer</p>
+                </li>
+            </ul>
+        </section>
 
-            <!--<dd> - для розмітки опису-->
-            <dd>Large files that do not require transparent backgrounds or animations. This format is ideal for vivid
-                photorealistic
-                photographs as it can contain millions of colors.</dd>
-
-            <dt>PNG</dt>
-            <dd>Has an additional parameter for describing transparency - the alpha channel. Suitable for images with
-                transparent or
-                monochrome backgrounds. Used for icons and decorative items.</dd>
-
-            <dt>webP</dt>
-            <dd>A replacement format for PNG and JPEG, but with incomplete browser support. When
-                equal image quality, the compressed files will be smaller than PNG and JPEG on average
-                by 25%.</dd>
-        </dl>
-
-        <p>
-            Тег <span class="accent">span</span> це універсальний контейнер для текстового контенту.
-        </p>
-
-        <!--<pre> - дозволяє примусово переносити строки. Використовується для розмітки текстів пісень або віршів.-->
-        <pre>
-          Wyatt resteth here, that quick could never rest;
-          Whose heavenly gifts increased by disdain,
-          And virtue sank the deeper in his breast;
-          Such profit he by envy could obtain.
-        </pre>
-
-        <pre>
-          A head where wisdom mysteries did frame,
-          Whose hammers beat still in that lively brain
-          As on a stithy where that some work of fame
-          Was daily wrought, to turn to Britain's gain.
-        </pre>
-
-        <pre>
-          A visage stern and mild, where both did grow,
-          Vice to contemn, in virtue to rejoice;
-          Amid great storms, whom grace assured so
-          To live upright and smile at fortune's choice.
-        </pre>
-
-        <!--<sup>-(superscript) & <sub> -(subscript) для відображення символів у верхньому та нижньому індексах відповідно. Наприклад для математичних та хімічних формул-->
-        <p>Formula of water - H<sub>2</sub>O</p>
-        <p>Total area of the room - 150m<sup>2</sup>.</p>
-        <p>Solve the equation a<sup>3</sup>+a<sup>2</sup>=4</p>
-
-
-        <!--datatime атрибут, який відображає дату та час для асистивних технологій-->
-        <p>
-            Останні новини на <time datetime="2019-12-14">24 лютого 2022 року</time>.
-        </p>
-
-        <p>
-            Засідання відбулось в <time datetime="2018-07-14T11:30">11:30 ранку</time>.
-        </p>
-
-        <!--<address> використовується для симантичного відображення адреси, контактів, тощо-->
-        <address>
-            м. Київ, <br />
-            Бульвар Лесі Українки, б. 26, <br />
-            4й поверх офіс 427
-        </address>
-
-        <address>
-            <a href="mailto:mango@mail.pig">mango@gmail.pig</a>
-            <a href="tel:+1112223344">(111) 222-33-44</a>
-        </address>
-
-        <!--<strong> семантично виділяє текст коли <b> суто візуально-->
-        <p>
-            <strong> Увага!</strong> Закінчується строк підписки.
-            <strong>Обліковий запис буде призупинено.</strong> Будь-ласка подовжіть підписку або зв'яжіться зі
-            <b>службою підтримки.</b>
-        </p>
-
-        <!--Тег <em> (скорочення від emphasis) семантично виділяє акцент і робить наклонним текстом , тег <i> тільки наклонний текст-->
-        <p>Я <em>у захваті </em> коли затримують зарплатню!</p>
-        <p>
-            Для напівжирного тексту, виділіть його тегами &lt;strong&gt; та &lt;/strong&gt;.
-        </p>
-
-        <!--Відео-контент-->
-        <!-- src - Вказує адресу відеофайлу
-poster - адреса зображення, що використовується як постер якщо відео не загружене або ще не відтворюється
-width и height - задають высоту та ширину, як у зображення
-controls - атрибут-флаг, якщо присутній, добавляються елементи управління відео
-autoplay - атрибут-флаг, якщо присутній, відтворення відео починається щойно воно доступне
-loop - атрибут-флаг, якщо присутній, відео буде відтворюватись в циклі -->
-        <video src="http://techslides.com/demos/sample-videos/small.webm"
-            poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls
-            autoplay preload="auto"></video>
-
-
-        <!-- Для загрузки різних форматів відео прибераємо атрибут src та добавляємо
-             новий тег <source> для кожного формату відео.
-            Першим загрузиться формат який вказаний першим, за умови підтримки браузером. -->
-        <video poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls>
-            <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" />
-            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
-            <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg" />
-        </video>
-
-        <!-- тег <audio> схожий на <video>  -->
-        <audio src="./audio/Sleep Away.mp3" controls autoplay loop preload="auto"></audio>
-
-        <audio controls>
-            <source src="./audio/Sleep Away.mp3" type="audio/mpeg" />
-            <source src="./audio/Sleep Away.mp3" type="audio/ogg" />
-        </audio>
-
-        <!-- Якщо браузер застарілий і не підтримує HTML5
-         потрібно сповістити про це користувача. Для цього, всередині тегів <video> та <audio>,
-             після всіх тегів <source> добавимо рядок тексту, який відобразить браузер 
-             якщо не підтримує медіаконтент            . -->
-        <video poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls>
-            <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" />
-            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
-            <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg" />
-
-            Your browser does not support the <code>video</code> element.
-        </video>
-
-        <audio controls>
-            <source src="./audio/Sleep Away.mp3" type="audio/mpeg" />
-            <source src="./audio/Sleep Away.mp3" type="audio/ogg" />
-
-            Your browser does not support the <code>audio</code> element.
-        </audio>
     </main>
-    <footer>
 
+
+    <footer>
+        <a href="#">WebStudio</a>
+        <address>
+            <p>м. Київ, пр-т Лесі Українки, 26</p>
+            <ul>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            </ul>
+        </address>
     </footer>
+
 </body>
 
 </html>
