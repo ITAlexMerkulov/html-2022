@@ -155,6 +155,57 @@
 
         <!--Тег <em> (скорочення від emphasis) семантично виділяє акцент і робить наклонним текстом , тег <i> тільки наклонний текст-->
         <p>Я <em>у захваті </em> коли затримують зарплатню!</p>
+        <p>
+            Для напівжирного тексту, виділіть його тегами &lt;strong&gt; та &lt;/strong&gt;.
+        </p>
+
+        <!--Відео-контент-->
+        <!-- src - Вказує адресу відеофайлу
+poster - адреса зображення, що використовується як постер якщо відео не загружене або ще не відтворюється
+width и height - задають высоту та ширину, як у зображення
+controls - атрибут-флаг, якщо присутній, добавляються елементи управління відео
+autoplay - атрибут-флаг, якщо присутній, відтворення відео починається щойно воно доступне
+loop - атрибут-флаг, якщо присутній, відео буде відтворюватись в циклі -->
+        <video src="http://techslides.com/demos/sample-videos/small.webm"
+            poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls
+            autoplay preload="auto"></video>
+
+
+        <!-- Для загрузки різних форматів відео прибераємо атрибут src та добавляємо
+             новий тег <source> для кожного формату відео.
+            Першим загрузиться формат який вказаний першим, за умови підтримки браузером. -->
+        <video poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls>
+            <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" />
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
+            <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg" />
+        </video>
+
+        <!-- тег <audio> схожий на <video>  -->
+        <audio src="./audio/Sleep Away.mp3" controls autoplay loop preload="auto"></audio>
+
+        <audio controls>
+            <source src="./audio/Sleep Away.mp3" type="audio/mpeg" />
+            <source src="./audio/Sleep Away.mp3" type="audio/ogg" />
+        </audio>
+
+        <!-- Якщо браузер застарілий і не підтримує HTML5
+         потрібно сповістити про це користувача. Для цього, всередині тегів <video> та <audio>,
+             після всіх тегів <source> добавимо рядок тексту, який відобразить браузер 
+             якщо не підтримує медіаконтент            . -->
+        <video poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" width="640" controls>
+            <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm" />
+            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4" />
+            <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg" />
+
+            Your browser does not support the <code>video</code> element.
+        </video>
+
+        <audio controls>
+            <source src="./audio/Sleep Away.mp3" type="audio/mpeg" />
+            <source src="./audio/Sleep Away.mp3" type="audio/ogg" />
+
+            Your browser does not support the <code>audio</code> element.
+        </audio>
     </main>
     <footer>
 
