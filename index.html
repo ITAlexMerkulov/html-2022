@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <!-- homework-01 -->
 
 <head>
@@ -11,9 +11,16 @@
 </head>
 
 <body>
+
+    <iframe width="560" height="315"
+        src="http://fecore.net.ua/html-css/v1/docs/lesson-01/sectioning/#%D1%82%D0%B5%D0%B3-article"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     <header>
         <nav>
-            <a href="#">WebStudio</a>
+            <a href="./index.html" class="logo"> <span class="logo-left">Web</span><span
+                    class="logo-right">Studio</span> </a>
 
             <ul>
                 <li> <a href="#">Студія</a></li>
@@ -23,17 +30,17 @@
         </nav>
         <address>
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </header>
 
 
     <main>
-        <section class="">
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+        <section class="heroSection">
+            <h1>Ефективні рішення <br /> для вашого бізнесу</h1>
+            <button type="button" class="btn">Замовити послугу</button>
         </section>
         <section class="benefits">
             <ul>
@@ -61,9 +68,9 @@
         <section class="what-are-we-doing">
             <h2>Чим ми займаємось</h2>
             <ul>
-                <li><img src="./images/laptop.webp" alt="ноутбук"></li>
-                <li><img src="./images/palitra.webp" alt="палітра на планшеті"></li>
-                <li><img src="./images/keyboard-on-table.webp" alt="клавіатура на столі"></li>
+                <li><img src="./images/laptop.webp" alt="ноутбук" width="370" height="294"></li>
+                <li><img src="./images/palitra.webp" alt="палітра на планшеті" width="370" height="294"></li>
+                <li><img src="./images/keyboard-on-table.webp" alt="клавіатура на столі" width="370" height="294"></li>
             </ul>
         </section>
 
@@ -71,23 +78,23 @@
             <h2>Наша команда</h2>
             <ul>
                 <li>
-                    <img src="./images/igor.webp" alt="igor" width="270">
+                    <img src="./images/igor.webp" alt="igor" width="270" height="260">
                     <h3>Ігор Дем'яненко</h3>
                     <p>Product Designer</p>
 
                 </li>
                 <li>
-                    <img src="./images/olga.webp" alt="olga" width="270">
+                    <img src="./images/olga.webp" alt="olga" width="270" height="260">
                     <h3>Ольга Репіна</h3>
                     <p>Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./images/nikolas.webp" alt="nikolas" width="270">
+                    <img src="./images/nikolas.webp" alt="nikolas" width="270" height="260">
                     <h3>Микола Тарасов</h3>
                     <p>Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/michael.webp" alt="michael" width="270">
+                    <img src="./images/michael.webp" alt="michael" width="270" height="260">
                     <h3>Михайло Єрмаков</h3>
                     <p>UI Designer</p>
                 </li>
@@ -97,8 +104,8 @@
     </main>
 
 
-    <footer>
-        <a href="#">WebStudio</a>
+    <footer class="footer">
+        <a href="#" class="logo"><span>Web</span><span class="footer-logo-right">Studio</span> </a>
         <address>
             <p>м. Київ, пр-т Лесі Українки, 26</p>
             <ul>
