@@ -45,21 +45,20 @@ color: #2196F3;
 
 
 /* <!-- Pseudo-classes -->
-<!-- :visited --> */
+<!-- :hover in tables --> */
 
-.social-links .link {
-  color: teal;
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
 }
 
-.social-links .link:hover,
-.social-links .link:focus {
-  color: orange;
+/* оформлення таблиці*/
+.schedule {
+  border-collapse: collapse;
 }
 
-.social-links .link:active {
-  color: red;
-}
-
-.social-links .link:visited {
-  color: green;
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
 }
