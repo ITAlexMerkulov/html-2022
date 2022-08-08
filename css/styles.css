@@ -45,7 +45,7 @@ color: #2196F3;
 
 
 /* <!-- Pseudo-classes -->
-<!-- :active --> */
+<!-- :visited --> */
 
 .social-links .link {
   color: teal;
@@ -58,4 +58,8 @@ color: #2196F3;
 
 .social-links .link:active {
   color: red;
+}
+
+.social-links .link:visited {
+  color: green;
 }
