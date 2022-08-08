@@ -44,132 +44,23 @@ color: #2196F3;
 
 
 
-/* <!-- Property cursor --> */
-.auto {
-  cursor: auto;
-}
-.default {
-  cursor: default;
-}
-.none {
-  cursor: none;
-}
-.context-menu {
-  cursor: context-menu;
-}
-.help {
-  cursor: help;
-}
-.pointer {
-  cursor: pointer;
-}
-.progress {
-  cursor: progress;
-}
-.wait {
-  cursor: wait;
-}
-.cell {
-  cursor: cell;
-}
-.crosshair {
-  cursor: crosshair;
-}
-.text {
-  cursor: text;
-}
-.vertical-text {
-  cursor: vertical-text;
-}
-.alias {
-  cursor: alias;
-}
-.copy {
-  cursor: copy;
-}
-.move {
-  cursor: move;
-}
-.no-drop {
-  cursor: no-drop;
-}
-.not-allowed {
-  cursor: not-allowed;
-}
-.all-scroll {
-  cursor: all-scroll;
-}
-.col-resize {
-  cursor: col-resize;
-}
-.row-resize {
-  cursor: row-resize;
-}
-.n-resize {
-  cursor: n-resize;
-}
-.e-resize {
-  cursor: e-resize;
-}
-.s-resize {
-  cursor: s-resize;
-}
-.w-resize {
-  cursor: w-resize;
-}
-.ns-resize {
-  cursor: ns-resize;
-}
-.ew-resize {
-  cursor: ew-resize;
-}
-.ne-resize {
-  cursor: ne-resize;
-}
-.nw-resize {
-  cursor: nw-resize;
-}
-.se-resize {
-  cursor: se-resize;
-}
-.sw-resize {
-  cursor: sw-resize;
-}
-.nesw-resize {
-  cursor: nesw-resize;
-}
-.nwse-resize {
-  cursor: nwse-resize;
+/* <!-- variables --> */
+:root {  /*глобальна область html*/
+  --brand-color: #3f51b5;
+  --border-color: rgba(237, 19, 19,0.3); /*змінна з кольором з альфа-каналом(прозорість)*/
 }
 
-body {
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+.section {
+  /* інші стилі */
+  border: 10px solid var(--border-color);
 }
 
-.cursors {
-  display: flex;
-  flex-wrap: wrap;
+.section-title {
+  /* інші стилі */
+  color: var(--brand-color);
 }
 
-.cursors > div {
-  flex: 150px;
-  padding: 10px 2px;
-  white-space: nowrap;
-  border: 1px solid #eee;
-  border-radius: 5px;
-  margin: 0 5px 5px 0;
-}
-
-.cursors > div:hover {
-  background: #eee;
-}
-
-code {
-  display: inline-block;
-  background-color: #eee;
-  padding: 4px 6px;
-  border-radius: 4px;
-  font-size: 32px;
+.section-title::before {
+  /* інші стилі */
+  background-color: var(--brand-color);
 }
