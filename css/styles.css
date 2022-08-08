@@ -45,13 +45,17 @@ color: #2196F3;
 
 
 /* <!-- Pseudo-classes -->
-<!-- :focus --> */
+<!-- :active --> */
+
 .social-links .link {
   color: teal;
 }
 
-.social-links .link:focus,
-.social-links .link:hover {
+.social-links .link:hover,
+.social-links .link:focus {
   color: orange;
-  font-size: large;
+}
+
+.social-links .link:active {
+  color: red;
 }
