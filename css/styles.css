@@ -42,6 +42,23 @@ color: #2196F3;
 ;
 }
 
-.menu>li {
-    border: 1px solid tomato;
+/* селектор атрибута */
+a[title]{
+    color: teal;
+}
+
+/* cелектор [атрибут = "значення" */
+a[href="https://htmlreference.io"]
+{
+  color: teal;
+}
+
+a[href="https://cssreference.io"]
+{
+  color: orange;
+}
+
+a[href="https://www.youtube.com"]
+{
+  color: tomato;
 }
