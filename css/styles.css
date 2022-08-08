@@ -42,23 +42,22 @@ color: #2196F3;
 ;
 }
 
-/* селектор атрибута */
-a[title]{
-    color: teal;
-}
 
-/* cелектор [атрибут = "значення" */
-a[href="https://htmlreference.io"]
-{
+
+/* <!-- Pseudo-classes -->
+<!-- :hover --> */
+/* .link {
   color: teal;
 }
 
-a[href="https://cssreference.io"]
-{
-  color: orange;
+.link:hover {
+  color: tomato;
+} */
+
+.social-links .link {
+  color: teal;
 }
 
-a[href="https://www.youtube.com"]
-{
+.social-links .link:hover {
   color: tomato;
 }
