@@ -45,19 +45,13 @@ color: #2196F3;
 
 
 /* <!-- Pseudo-classes -->
-<!-- :hover --> */
-/* .link {
-  color: teal;
-}
-
-.link:hover {
-  color: tomato;
-} */
-
+<!-- :focus --> */
 .social-links .link {
   color: teal;
 }
 
+.social-links .link:focus,
 .social-links .link:hover {
-  color: tomato;
+  color: orange;
+  font-size: large;
 }
