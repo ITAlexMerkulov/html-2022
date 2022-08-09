@@ -43,24 +43,35 @@ color: #2196F3;
 }
 
 
+.nav a {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 
-/* <!-- variables --> */
-:root {  /*глобальна область html*/
-  --brand-color: #3f51b5;
-  --border-color: rgba(237, 19, 19,0.3); /*змінна з кольором з альфа-каналом(прозорість)*/
+color: #212121;
 }
 
-.section {
-  /* інші стилі */
-  border: 10px solid var(--border-color);
+.nav a:hover,
+.contacts:hover {
+    cursor: pointer;
+    color: #2196F3;
 }
 
-.section-title {
-  /* інші стилі */
-  color: var(--brand-color);
+.contacts {
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+
 }
 
-.section-title::before {
-  /* інші стилі */
-  background-color: var(--brand-color);
-}
+/* .contacts:hover {
+    cursor: pointer;
+    color: #2196F3;
+} */
