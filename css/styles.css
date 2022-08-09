@@ -71,7 +71,63 @@ color: #757575;
 
 }
 
-/* .contacts:hover {
-    cursor: pointer;
-    color: #2196F3;
-} */
+.hero-section {
+    width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+
+.hero-title{
+   
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.hero-btn {
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+padding: 0px 0px;
+}
+
+.hero-btn-text {
+   margin: 10px 20px 30px 40px;
+padding: 0px 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
