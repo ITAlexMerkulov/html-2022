@@ -11,7 +11,8 @@ li {
 }
 
 
-.logo{
+.logo,
+.footer-logo{
     /* position: absolute;
 width: 145px;
 height: 31px;
@@ -46,7 +47,7 @@ color: #2196F3;
 }
 
 /* navigation-bar */
-.site-nav .nav-link {
+.nav .nav-link {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -55,10 +56,12 @@ line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
 }
-.site-nav .nav-link:hover,
-.site-nav .nav-link:focus,
+.nav .nav-link:hover,
+.nav .nav-link:focus,
 .contacts:hover,
-.contacts:focus{
+.contacts:focus,
+.footer-contacts:hover,
+.footer-contacts:focus{
 color: #2196F3;
 cursor: pointer;
 }
@@ -79,7 +82,84 @@ color: #757575;
 
 
 /* hero */
+.hero-section {
+ width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
+}
+
+.hero-title {
+   position: relative;
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 .hero-btn {
-  background-color: blue;
-  color: white;
+   
+  position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+bord
+/* text */
+text-align: center;
+white-space: nowrap;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+
+
+/* benefits */
+
+
+/* footer */
+
+.footer-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer-contacts{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
 }
