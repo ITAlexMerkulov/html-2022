@@ -15,24 +15,53 @@
 --logo-black: #000000;
 --main-text: #212121;
 --secondary-text-color: #757575;
---nav-bg-color: #FFFFFF;
+--page-bg-color: #FFFFFF;
 --hero-bg-color: #2F303A;
 --work-bg-color: #E5E5E5;
 --staff-bg-color: #F5F4FA;
 --bottom-contacts-color:  rgba(255,255,255,.6);
 }
 
+
 :focus{
   outline: none;
 }
+
+
 a {
     text-decoration: none;
 }
 
 
-li {
+.list {
     list-style-type: none; 
 }
+
+.page{
+    background-color: var(--page-bg-color);
+}
+
+
+
+/* text coloring */
+/* .staff-title,
+.staff-subtitle,
+.work-title,
+.benefits-title{color: var(--main-text);}
+
+
+.benefits-text,
+.staff-text {color: var(--secondary-text-color);} */
+/* or  */
+/*    */
+/*   */
+.section-title {color: var(--main-text);}
+
+.section-text {color: var(--secondary-text-color);}
+
+/* .section-title */
+
+
 
 
 .logo,
@@ -52,7 +81,7 @@ li {
 }
 
 .footer-logo-right{
-    color: var(--nav-bg-color);
+    color: var(--page-bg-color);
 }
 
 .footer {
@@ -63,14 +92,22 @@ li {
 
 /* navigation-bar */
 .nav .nav-link {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: var(--main-text);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-text);
 }
+
+
+/* current position */
+.nav .nav-link.curent {
+    color: var(--accent);
+}
+
+/* hover/focus effects */
 .nav .nav-link:hover,
 .nav .nav-link:focus,
 .contacts:hover,
@@ -117,7 +154,7 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: var(--nav-bg-color);
+color: var(--page-bg-color);
 }
 .hero-btn {
    
@@ -135,14 +172,12 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
-/* identical to box height, or 188% */
-
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 
-color: var(--nav-bg-color);
+color: var(--page-bg-color);
 }
 
 /* benefits */
@@ -156,9 +191,9 @@ color: var(--nav-bg-color);
 
 
 /* staff-section */
-.staff{
-    background-color: var(--staff-bg-color);
-}
+.staff{    background-color: var(--staff-bg-color);}
+
+
 
 
 
@@ -174,7 +209,7 @@ line-height: 24px;
 
 letter-spacing: 0.03em;
 
-color: var(--nav-bg-color);
+color: var(--page-bg-color);
 }
 
 .footer-contacts{
@@ -184,8 +219,8 @@ font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 /* or 171% */
-
 letter-spacing: 0.03em;
-
 color: var(--bottom-contacts-color);
 }
+
+
