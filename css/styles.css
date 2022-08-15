@@ -27,6 +27,9 @@
   outline: none;
 }
 
+body {
+    font-family: roboto, sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -92,7 +95,7 @@ a {
 
 /* navigation-bar */
 .nav .nav-link {
-    font-family: 'Roboto';
+ 
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -121,7 +124,7 @@ cursor: pointer;
 
 /* address */
 .contacts{
-font-family: 'Roboto';
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -144,7 +147,7 @@ background: var(--hero-bg-color);
 
 .hero-title {
    position: relative;
-   font-family: 'Roboto';
+
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -165,7 +168,6 @@ height: 50px;
 background: var(--accent);
 
 white-space: nowrap;
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -195,11 +197,10 @@ color: var(--page-bg-color);
 /* footer */
 
 .footer-text{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 /* or 171% */
 
 letter-spacing: 0.03em;
@@ -208,14 +209,13 @@ color: var(--page-bg-color);
 }
 
 .footer-contacts{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: normal;
+    color: var(--bottom-contacts-color);
+    letter-spacing: 0.03em;
 /* or 171% */
-letter-spacing: 0.03em;
-color: var(--bottom-contacts-color);
 }
 
 
