@@ -69,13 +69,13 @@ a {
 
 .logo,
 .footer-logo{
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  color: var(--accent);
+    color: var(--accent);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+  
 }
 
 
@@ -160,10 +160,10 @@ text-transform: uppercase;
 color: var(--page-bg-color);
 }
 .hero-btn {
-   
-  position: absolute;
-width: 200px;
-height: 50px;
+   font-family: inherit;
+    position: absolute;
+    width: 200px;
+    height: 50px;
 
 background: var(--accent);
 
