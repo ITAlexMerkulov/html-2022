@@ -22,11 +22,15 @@
 --bottom-contacts-color:  rgba(255,255,255,.6);
 }
 
+*{
+    margin: 0;
+}
+/* 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 :focus{
   outline: none;
@@ -66,7 +70,8 @@ a {
 
 .logo,
 .footer-logo{
-    display: inherit;
+
+    display: inline;
     color: var(--accent);
     font-family: 'Raleway';
     font-style: normal;
@@ -120,7 +125,15 @@ cursor: pointer;
 }
 
 
+.address
+ {
+    display: inline;
+}
+
 /* address */
+
+
+
 .contacts{
 
 font-style: normal;
@@ -136,27 +149,25 @@ color: var(--secondary-text-color);
 
 /* hero */
 .hero-section {
- width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
+ /* width: 1600px;
+height: 600px; */
+/* left: 0px;
+top: 80px; */
 background: var(--hero-bg-color);
 }
 
 .hero-title {
-   position: relative;
 
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-/* or 136% */
 
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--page-bg-color);
 }
+
 .hero-btn {
     display: block;
     background: var(--accent);
@@ -178,23 +189,106 @@ color: var(--page-bg-color);
     margin-right: auto;
 }
 /* benefits */
-/* 
+.benefits-title {
+     width: 270px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+} 
+.benefits-text {
+    width: 270px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+}
 
 /*future
  */
 
 /* work-section */
+.work-title,
+.staff-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+margin: 0;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.work-img {
+    display: block;
+    margin-right: 30px;
+}
+
 
 
 
 /* staff-section */
 .staff{    background-color: var(--staff-bg-color);}
 
-.staff-img {
-    border-radius: 50%;
+.section.staff,
+.section.work {
+   
+text-align: center;
+list-style: none;
 }
 
 
+.staff-card {
+  display: inline-block;
+    width: 270;
+    height: 368;
+    background: var(--page-bg-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+margin-right: 30px;
+margin-bottom: 94px;
+}
+
+.staff-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+
+.staff-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+     
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.staff-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+        
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-top: 0px;
+    margin-bottom: 30px ;
+}
+
+
+.wraper li {
+    display: inline-block;
+
+}
 
 
 
