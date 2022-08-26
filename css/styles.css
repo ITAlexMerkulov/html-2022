@@ -338,6 +338,12 @@ top: 80px; */
 }
 
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .wraper li {
     display: inline-block;
 
