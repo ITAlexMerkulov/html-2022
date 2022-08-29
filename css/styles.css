@@ -70,9 +70,7 @@ a {
 .page-header {
     display: block;
     padding-top: 24px;
-    padding-bottom: 24px;
-
-
+    padding-bottom: 25px
 }
 
 .section-title {
@@ -398,6 +396,15 @@ top: 80px; */
 
 /* portfolio page */
 
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio>.container>.list {
+    margin-bottom: 50px;
+}
+
 .list button {
     font-family: roboto;
     font-weight: 500;
@@ -429,7 +436,7 @@ top: 80px; */
     width: 370px;
     font-size: 0px;
     border: 1px solid #EEEEEE;
-    margin: 30px 30px;
+
 }
 
 
