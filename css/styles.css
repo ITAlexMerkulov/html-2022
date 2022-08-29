@@ -32,6 +32,8 @@ html {
     box-sizing: inherit;
 }
 
+
+
 /* 
 *,
 *::before,
@@ -162,6 +164,7 @@ a {
 
 /* hero */
 .hero-section {
+    text-align: center;
     /* width: 1600px;
 height: 600px; */
     /* left: 0px;
@@ -178,10 +181,11 @@ top: 80px; */
     font-size: 44px;
     line-height: 1.36;
 
-    text-align: center;
+
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--page-bg-color);
+    margin-top: 0;
     margin-bottom: 30px;
 
 }
