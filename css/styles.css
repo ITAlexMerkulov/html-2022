@@ -212,6 +212,7 @@ top: 80px; */
     display: block;
     padding-bottom: 200px;
     padding-top: 200px;
+    margin-bottom: 70px;
     background: var(--hero-bg-color);
 }
 
@@ -258,7 +259,7 @@ top: 80px; */
 .section.benefits {
     display: block;
     margin-left: auto;
-    margin-top: 70px;
+
 }
 
 .section.benefits .list {
@@ -454,6 +455,9 @@ top: 80px; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+
+.portfolio .button-list {
     margin-bottom: 50px;
 }
 
