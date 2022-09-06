@@ -491,13 +491,12 @@ top: 80px; */
 }
 
 .portfolio-item {
-    width: 370px;
+    width: calc((100% - 60px) / 3);
     font-size: 0px;
     border: 1px solid var(--portfolio-card-border-color);
     margin-right: 30px;
     margin-bottom: 30px;
     padding-bottom: 20px;
-
 }
 
 .portfolio-item:nth-child(3n) {
