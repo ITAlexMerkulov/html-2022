@@ -1,15 +1,4 @@
-/* accent color: #2196F3 */
-/* logo color black: #000000 */
-/* main text color: #212121 */
-/* secondary text color: #757575 */
-/* navigation background color: #FFFFFF */
-/* hero background color: #2F303A */
-/* work section background color:  #E5E5E5; */
-/* staff section bg-color: #F5F4FA */
-/* bottom contacts color: rgba(255,255,255,.6); */
-
-
-/* global variables for layaut colors */
+/* global variabl-listes for layaut colors */
 :root {
     --accent: #2196F3;
     --logo-black: #000000;
@@ -34,14 +23,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
-/* 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-} */
 
 :focus {
     outline: none;
@@ -72,7 +53,7 @@ a {
 .page-header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--nav-bottom-line-color);
 
 }
 
@@ -271,10 +252,7 @@ top: 80px; */
 }
 
 .section.benefits ul li {
-    width: 270px;
-
-    /* margin-left: auto;
-    margin-right: auto; */
+    width: calc((100% - 90px) / 4);
 }
 
 .section.benefits ul li:not(:last-child) {
@@ -318,9 +296,14 @@ top: 80px; */
     margin-bottom: 50px;
 }
 
-.work-img {
-    display: block;
-    /* margin-right: 30px; */
+
+.work-list {
+    display: flex;
+}
+
+
+.work-item {
+    width: calc((100% - 60px) / 3);
 }
 
 .work-item:not(:last-child) {
@@ -345,10 +328,13 @@ top: 80px; */
     padding-bottom: 94px;
 }
 
+.staff-list {
+    display: flex;
+}
 
 .staff-card {
-    display: inline-block;
-    width: 270;
+
+    width: calc((100% - 90px) / 4);
     height: 368;
     background: var(--page-bg-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -402,10 +388,10 @@ top: 80px; */
     padding: 0 15px;
 }
 
-.wraper li {
+/* .wraper li {
     display: inline-block;
 
-}
+} */
 
 
 
@@ -450,6 +436,7 @@ top: 80px; */
     padding-bottom: 94px;
 }
 
+
 .portfolio>.container>.list {
     display: flex;
     flex-wrap: wrap;
@@ -457,9 +444,17 @@ top: 80px; */
     justify-content: center;
 }
 
-.portfolio .button-list {
+
+.button-list {
     margin-bottom: 50px;
 }
+
+
+.button-list li:not(:last-child) {
+    margin-right: 8px;
+}
+
+
 
 .list button {
     font-family: roboto;
@@ -477,7 +472,6 @@ top: 80px; */
     border-radius: 4px;
     text-align: center;
     padding: 6px 22px;
-    margin-right: 8px;
 }
 
 
