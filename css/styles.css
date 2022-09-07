@@ -411,28 +411,35 @@ top: 80px; */
 
 
 .footer-text {
-    font-style: normal;
-    /* font-weight: 400; */
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 9px;
-
     color: var(--page-bg-color);
+    margin-bottom: 9px;
 }
 
 .footer-contacts {
-    /* font-weight: 400; */
-    display: block;
-    font-size: 14px;
-    line-height: 1.71;
-    font-style: normal;
     color: var(--bottom-contacts-color);
-    letter-spacing: 0.03em;
-    margin-bottom: 9px;
 
 }
+
+.footer-text,
+.footer-contacts {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.contacts-item {
+    margin-bottom: 9px;
+}
+
+.contacts-item:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
 
 
 
