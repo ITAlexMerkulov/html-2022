@@ -501,7 +501,6 @@ top: 80px; */
 .portfolio-item {
     width: calc((100% - 60px) / 3);
     font-size: 0px;
-    border: 1px solid var(--portfolio-card-border-color);
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -520,6 +519,12 @@ top: 80px; */
 }
 
 
+.card-content {
+    padding: 20px 24px;
+
+    border: 1px solid var(--portfolio-card-border-color);
+    border-top: 0;
+}
 
 .work-item {
     font-size: 0;
@@ -530,14 +535,13 @@ top: 80px; */
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin: 20px 24px 0px;
+    margin: 0px 0px 4px 0px;
 }
 
 .galery-text {
-    /* font-weight: 400; */
+
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    margin: 4px 24px 0px;
-    padding-bottom: 20px;
+    margin: 0;
 }
